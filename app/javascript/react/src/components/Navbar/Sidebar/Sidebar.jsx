@@ -1,6 +1,6 @@
 import React from 'react';
 import Navlinks from '../Navlinks/Navlinks';
-// import SocialLinks from '../SocialLinks/SocialLinks';
+import SocialLinks from '../SocialLinks/SocialLinks';
 import './Sidebar.css';
 
 const SideBar = ({ toggleMenu, setToggleMenu }) => {

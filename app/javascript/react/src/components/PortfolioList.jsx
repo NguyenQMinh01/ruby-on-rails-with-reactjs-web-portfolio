@@ -1,5 +1,4 @@
 import React, { Component, createContext, useContext  } from 'react';
-// import { Link } from 'react-router-dom';
 
 class PortfolioList extends Component {
   state = {
@@ -23,7 +22,6 @@ class PortfolioList extends Component {
             <li key={portfolio.id} className="list-group-item">
               <h2>{portfolio.title}</h2>
               <p>{portfolio.description}</p>
-              {/* <Link to={`/portfolio/${portfolio.id}`} className="btn btn-primary">Xem Chi Tiết</Link> */}
             </li>
           ))}
         </ul>

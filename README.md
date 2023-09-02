@@ -27,3 +27,5 @@ Things you may want to cover:
 * install:  gem install foreman
 * npm install react react-dom
 * run ./bin/dev => start server with frontend reactjs
+* build css => npm run build
+* get link svg => https://gist.github.com/matthewlharris/14009c6e625b5ba8dd02790f07cf3b6e

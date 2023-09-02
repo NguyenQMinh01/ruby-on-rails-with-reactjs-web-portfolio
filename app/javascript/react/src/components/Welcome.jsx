@@ -2,19 +2,15 @@ import React, {useEffect} from 'react';
 import ReactDOM from 'react-dom';
 import PortfolioList from './PortfolioList';
 import Navbar  from './Navbar/Navbar';
+import Hero from './Hero/Hero';
 
 const Welcome = () => {
-    
+
   return (
     <div className='welcome-container'>
         <Navbar />
       <header className='header'>
-        <div className='header-content'>
-          <h1 className='header-title'>Welcome to My Portfolio</h1>
-          <p className='header-description'>
-            Explore my projects and discover my skills.
-          </p>
-        </div>
+        <Hero />
       </header>
 
       <main className='main-content'>
